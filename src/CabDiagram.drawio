@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T07:33:49.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="zjpMX-cb0pSlxla9O3Ws" version="19.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-07T08:57:41.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="BqYNJ0u5g9pCIRyd-psC" version="19.0.0" type="github" pages="3">
   <diagram id="iYoIpUCzcXzduvzQwFd_" name="Day-11">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,7 +74,11 @@
           <mxGeometry x="490" y="180" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DWNE9YXdC9jtA24X5DgW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TXKR7vPZo5F5XqQGkxgz-5" target="7a4r-vHNNnVB4Asi6niu-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="TXKR7vPZo5F5XqQGkxgz-5" value="Business &lt;br&gt;Subscription" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_subscription;" vertex="1" parent="1">
           <mxGeometry x="260" y="180" width="50" height="40" as="geometry" />
@@ -88,14 +92,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="xgcTos-t8LmLqqp6ORnf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7a4r-vHNNnVB4Asi6niu-3" target="TXKR7vPZo5F5XqQGkxgz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7a4r-vHNNnVB4Asi6niu-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="210" width="360" height="200" as="geometry" />
+          <mxGeometry x="-170" y="210" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7a4r-vHNNnVB4Asi6niu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7a4r-vHNNnVB4Asi6niu-1" target="7a4r-vHNNnVB4Asi6niu-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7a4r-vHNNnVB4Asi6niu-1" value="Azure Policy" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;" vertex="1" parent="1">
-          <mxGeometry x="106.58" y="220" width="37.5" height="40" as="geometry" />
+          <mxGeometry x="120" y="225" width="37.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7a4r-vHNNnVB4Asi6niu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7a4r-vHNNnVB4Asi6niu-2" target="7a4r-vHNNnVB4Asi6niu-5">
           <mxGeometry relative="1" as="geometry" />
@@ -124,17 +135,35 @@
         <mxCell id="7a4r-vHNNnVB4Asi6niu-17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-19">
           <mxGeometry width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="7a4r-vHNNnVB4Asi6niu-16" value="RG-1" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-19">
+        <mxCell id="7a4r-vHNNnVB4Asi6niu-16" value="Business RG" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-19">
           <mxGeometry x="16.58" y="10" width="42.5" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="xgcTos-t8LmLqqp6ORnf-2" value="Business Facing &lt;br&gt;Application" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Enterprise_Applications.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-19">
+          <mxGeometry x="108.75" y="20" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xgcTos-t8LmLqqp6ORnf-5" value="Shared Services" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Shared_Image_Galleries.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-19">
+          <mxGeometry x="28.75" y="120" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VdviG0JD30S9eSFdGgPJ-1" value="DB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-19">
+          <mxGeometry x="128.75" y="122" width="48" height="48" as="geometry" />
+        </mxCell>
         <mxCell id="7a4r-vHNNnVB4Asi6niu-20" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="570" y="440" width="200" height="200" as="geometry" />
+          <mxGeometry x="570" y="450" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7a4r-vHNNnVB4Asi6niu-21" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-20">
           <mxGeometry width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="7a4r-vHNNnVB4Asi6niu-22" value="RG-1" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-20">
+        <mxCell id="7a4r-vHNNnVB4Asi6niu-22" value="Customer RG" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-20">
           <mxGeometry x="16.58" y="10" width="42.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgcTos-t8LmLqqp6ORnf-3" value="Customer Facing &lt;br&gt;Application" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Enterprise_Applications.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-20">
+          <mxGeometry x="120" y="10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xgcTos-t8LmLqqp6ORnf-6" value="Shared Services" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Shared_Image_Galleries.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-20">
+          <mxGeometry x="29.99999999999993" y="120" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VdviG0JD30S9eSFdGgPJ-2" value="DB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-20">
+          <mxGeometry x="140" y="120" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="7a4r-vHNNnVB4Asi6niu-23" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="870" y="440" width="200" height="200" as="geometry" />
@@ -142,11 +171,23 @@
         <mxCell id="7a4r-vHNNnVB4Asi6niu-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-23">
           <mxGeometry width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="7a4r-vHNNnVB4Asi6niu-25" value="RG-1" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-23">
+        <mxCell id="7a4r-vHNNnVB4Asi6niu-25" value="Vendor RG" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-23">
           <mxGeometry x="16.58" y="10" width="42.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgcTos-t8LmLqqp6ORnf-4" value="Vendor Facing &lt;br&gt;Application" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Enterprise_Applications.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-23">
+          <mxGeometry x="120" y="20" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xgcTos-t8LmLqqp6ORnf-7" value="Shared Services" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Shared_Image_Galleries.svg;" vertex="1" parent="7a4r-vHNNnVB4Asi6niu-23">
+          <mxGeometry x="30" y="120" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DWNE9YXdC9jtA24X5DgW-1" value="Logic App Service&lt;br&gt;(RouteMgmt,Reporting, Payment,Notification,Help center)" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
           <mxGeometry x="610" y="770" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4FPZyaYy-YnIm4ATGfDt-1" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Route Management&lt;br&gt;Service&lt;/span&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Batch_Accounts.svg;" vertex="1" parent="1">
+          <mxGeometry x="295" y="817.82" width="55.44" height="52.18" as="geometry" />
+        </mxCell>
+        <mxCell id="4FPZyaYy-YnIm4ATGfDt-2" value="Payment &lt;br&gt;Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Batch_Accounts.svg;" vertex="1" parent="1">
+          <mxGeometry x="290" y="689.41" width="65.44" height="61.59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -234,7 +275,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Su7PBomNZ6EfahJKXHZR-19" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Maps Service&lt;/span&gt;&lt;br&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Batch_Accounts.svg;" parent="1" vertex="1">
-          <mxGeometry x="525.8100000000001" y="200" width="54.19" height="51" as="geometry" />
+          <mxGeometry x="550.0000000000001" y="224.5" width="54.19" height="51" as="geometry" />
         </mxCell>
         <mxCell id="Su7PBomNZ6EfahJKXHZR-28" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;" parent="1" vertex="1">
           <mxGeometry x="431" y="110" width="32.82" height="35" as="geometry" />
